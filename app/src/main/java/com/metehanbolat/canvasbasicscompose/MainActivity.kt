@@ -63,6 +63,11 @@ fun MyCanvas() {
                 width = 3.dp.toPx()
             )
         )
+        drawOval(
+            color = Color.Magenta,
+            topLeft = Offset(550f, 100f),
+            size = Size(200f, 300f)
+        )
     }
 }
 
